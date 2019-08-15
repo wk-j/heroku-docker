@@ -1,0 +1,40 @@
+{
+    "omnisharp.path": "latest",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/bin": true,
+        "**/obj": true,
+        "node_modules": true,
+        ".cache": true,
+        "tools": true,
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "search.exclude": {
+        "node_modules": true,
+        "dist": true,
+        "build": true,
+        ".cache": true
+    },
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#9052b7",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#c7a878",
+        "activityBarBadge.foreground": "#15202b",
+        "titleBar.activeBackground": "#753f98",
+        "titleBar.inactiveBackground": "#753f9899",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveForeground": "#e7e7e799",
+        "statusBar.background": "#753f98",
+        "statusBarItem.hoverBackground": "#9052b7",
+        "statusBar.foreground": "#e7e7e7"
+    },
+    "peacock.color": "#753f98"
+}
