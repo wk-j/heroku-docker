@@ -9,4 +9,6 @@ heroku stack:set container
 
 heroku git:remote -a dotnet-web
 git push heroku master
+
+heroku logs --tail
 ```
