@@ -16,4 +16,7 @@ FROM mcr.microsoft.com/dotnet/core-nightly/runtime:3.0 AS runtime
 ENV DOTNET_USE_POLLING_FILE_WATCHER=true
 WORKDIR /app
 COPY --from=publish /app .
-ENTRYPOINT ["dotnet", "MyWeb.dll"]
+
+# ENTRYPOINT ["dotnet", "MyWeb.dll"]
+
+CMD dotnet MyWeb.dll
